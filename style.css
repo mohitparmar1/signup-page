@@ -1,0 +1,82 @@
+body {
+    font-family: 'roboto' sans-serif;
+    background-color: #fff;
+}
+
+.SignUp-box {
+    width: 360px;
+    height: 620px;
+    background: white;
+    margin: auto;
+    border-radius: 10px;
+    background-color: #5be0e0ef;
+    border: 1px solid black;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+form {
+    width: 300px;
+    padding-left: 20px;
+}
+
+form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+form input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-bottom: 1px solid rgb(151, 151, 151);
+    border-radius: 6px;
+    outline: none;
+}
+
+input[type=button] {
+    width: 320px;
+    height: 35px;
+    margin: 10px;
+    padding: 10px;
+    margin-left: 0px;
+    background-color: rgb(20, 189, 20);
+}
+
+input[type=text]:focus {
+    background-color: rgb(227, 225, 137);
+}
+
+input[type=email]:focus {
+    background-color: rgb(227, 225, 137);
+}
+
+input[type=password]:focus {
+    background-color: rgb(227, 225, 137);
+}
+
+form input:focus {
+    border: 2px solid gray;
+}
+ 
+input[type=button]:focus{
+    background-color: rgb(227, 225, 137);
+    border: 2px solid black;
+}
+.SignUp-box p {
+    margin-left: 20px;
+}
+
+.para-2 {
+    text-align: center;
+    margin-top: 0px;
+}
+
+.para-2 a {
+    color: rgb(0, 0, 0);
+}
